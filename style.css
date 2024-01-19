@@ -35,7 +35,7 @@ button {
 }
 #stop {
     color: #800000;
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    background-image: linear-gradient(to top, #b3ffab 0%, #12fff7 100%);
 }
 
 #reset {
