@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+h1 {
+    display: flex;
+    font-size: 9rem;
+    color: #800000;
+    margin-left: 3rem;
+}
+ main{
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+ }
+.stopwatch {
+    margin-left: 10rem;
+}
+button {
+    margin: 25px;
+    height: 5rem;
+    width: 14rem;
+    background-color: gray;
+    border: 1px solid white;
+    border-radius: 480px;
+    font-size: 4rem;
+    color: white;
+}
+
+#start {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    color: #800000;
+}
+#stop {
+    color: #800000;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+#reset {
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+    color: #800000;
+}
